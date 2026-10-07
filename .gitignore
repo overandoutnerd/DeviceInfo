@@ -1,4 +1,7 @@
+# Android Studio
+.idea/
 *.iml
+
 .gradle
 /local.properties
 /.idea/caches
