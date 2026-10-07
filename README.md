@@ -14,7 +14,7 @@ To build and install the application, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/overandoutnerd/Device-Info-Beta.git
+   git clone https://github.com/overandoutnerd/DeviceInfo.git
    ```
 2. Open the project in Android Studio.
 3. Build the project and run it on an Android device or emulator.
