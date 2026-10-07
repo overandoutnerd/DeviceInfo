@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_system_title">एंड्रॉयड</string>
+
+    <string name="app_name">Device Info</string>
+
+    <string name="nav_item_app_bar_title_home">डिवाइस इन्फो</string>
+    <string name="nav_item_app_bar_title_analyze">विश्लेषक</string>
+    <string name="nav_item_app_bar_title_wellbeing">हाल चाल</string>
+    <string name="nav_item_app_bar_title_settings">सेटिंग्स</string>
+
+    <string name="nav_item_title_home">घर</string>
+    <string name="nav_item_title_analyze">विश्लेषण</string>
+    <string name="nav_item_title_wellbeing">हाल चाल</string>
+    <string name="nav_item_title_settings">सेटिंग्स</string>
+
+    <string name="main_app_bar_menu_item_title_about">जानकारी</string>
+
+    <string name="home_tabs_item_title_dashboard">डैशबोर्ड</string>
+    <string name="home_tabs_item_title_apps">ऐप्स</string>
+    <string name="home_tabs_item_title_storage">स्टोरेज़</string>
+    <string name="home_tabs_item_title_device">डिवाइस</string>
+    <string name="home_tabs_item_title_system">सिस्टम</string>
+    <string name="home_tabs_item_title_processor">प्रोसेसर</string>
+    <string name="home_tabs_item_title_battery">बैटरी</string>
+    <string name="home_tabs_item_title_display">डिस्प्ले</string>
+    <string name="home_tabs_item_title_camera">कैमरा</string>
+
+    <string name="home_tab_apps_chips_item_title_all">सभी</string>
+    <string name="home_tab_apps_chips_item_title_user">यूजर</string>
+    <string name="home_tab_apps_chips_item_title_system">सिस्टम</string>
+
+    <string name="analyze_tabs_item_title_target">लक्ष्य</string>
+    <string name="analyze_tabs_item_title_minimum">न्यूनतम</string>
+    <string name="analyze_tabs_item_title_installer">इंस्टालर</string>
+    <string name="analyze_tabs_item_title_signature">हस्ताक्षर</string>
+
+    <string name="analyze_apps_sheet_loading">ऐप्स लोड हो रहे हैं…</string>
+    <string name="analyze_apps_sheet_error">इस आइटम के लिए ऐप्स लोड नहीं किए जा सके।</string>
+    <string name="analyze_apps_sheet_empty">कोई ऐप नहीं मिला।</string>
+    <string name="analyze_tab_load_error_title">यह टैब लोड नहीं किया जा सका</string>
+    <string name="analyze_tab_load_error_subtitle">इंस्टॉल किए गए ऐप्स को स्कैन करते समय कुछ गलत हो गया।</string>
+    <string name="analyze_tab_load_error_retry">पुनः प्रयास करें</string>
+    <string name="analyze_apps_sheet_close">बंद करें</string>
+
+    <string name="installer_pre_installed">प्री-इंस्टॉल्ड</string>
+    <string name="installer_debug">डिबग (ADB)</string>
+    <string name="installer_direct_install">डायरेक्ट इंस्टॉल</string>
+
+    <plurals name="analyze_apps_sheet_count">
+        <item quantity="one">%d ऐप</item>
+        <item quantity="other">%d ऐप्स</item>
+    </plurals>
+
+    <string name="device_details_item_title_device_name">डिवाइस नाम</string>
+    <string name="device_details_item_title_device_code">डिवाइस कोड</string>
+    <string name="device_details_item_title_device_model">मॉडल</string>
+    <string name="device_details_item_title_device_manufacturer">निर्माता</string>
+    <string name="device_details_item_title_device_board">बोर्ड</string>
+    <string name="device_details_item_title_device_hardware">हार्डवेयर</string>
+    <string name="device_details_item_title_device_brand">ब्रांड</string>
+    <string name="device_details_item_title_device_id">एंड्रॉयड डिवाइस आईडी</string>
+    <string name="device_details_item_title_device_fingerprint">फिंगरप्रिंट</string>
+
+    <string name="system_details_item_title_android_version">एंड्रॉयड संस्करण</string>
+    <string name="system_details_item_title_code_name">कोड नाम</string>
+    <string name="system_details_item_title_api_level">एपीआई स्तर</string>
+    <string name="system_details_item_title_security_patch">सुरक्षा पैच</string>
+    <string name="system_details_item_title_bootloader">बूटलोडर</string>
+    <string name="system_details_item_title_build_number">"निर्माण संख्या "</string>
+    <string name="system_details_item_title_baseband">बेसबैंड</string>
+    <string name="system_details_item_title_java_vm">जावा वीएम</string>
+    <string name="system_details_item_title_kernel">कर्नेल</string>
+    <string name="system_details_item_title_language">भाषा</string>
+    <string name="system_details_item_title_timezone">समय क्षेत्र</string>
+    <string name="system_details_item_title_google_play_services">गूगल प्ले सेवाएँ</string>
+
+    <string name="processor_details_item_title_processor">प्रोसेसर</string>
+    <string name="processor_details_item_title_cpu_architecture">सीपीयू वास्तुकला</string>
+    <string name="processor_details_item_title_supported_abis">समर्थित ABIs</string>
+    <string name="processor_details_item_title_cpu_type">सीपीयू प्रकार</string>
+    <string name="processor_details_item_title_cpu_governor">सीपीयू गवर्नर</string>
+    <string name="processor_details_item_title_total_cores">कुल कोर</string>
+    <string name="processor_details_item_title_cpu_frequency">सीपीयू आवृत्ति</string>
+    <string name="processor_details_item_title_gpu_renderer">GPU रेंडरर</string>
+    <string name="processor_details_item_title_gpu_vendor">GPU विक्रेता</string>
+    <string name="processor_details_item_title_gpu_version">GPU संस्करण</string>
+
+    <string name="battery_details_item_title_health">स्वास्थ्य</string>
+    <string name="battery_details_item_title_level">स्तर</string>
+    <string name="battery_details_item_title_status">स्थिति</string>
+    <string name="battery_details_item_title_power_source">शक्ति का स्रोत</string>
+    <string name="battery_details_item_title_technology">तकनीकी</string>
+    <string name="battery_details_item_title_temperature">तापमान</string>
+    <string name="battery_details_item_title_current">करंट</string>
+    <string name="battery_details_item_title_voltage">वोल्टेज</string>
+    <string name="battery_details_item_title_capacity">क्षमता</string>
+
+    <string name="display_details_item_title_resolution">रिज़ॉल्यूशन</string>
+    <string name="display_details_item_title_density">घनत्व</string>
+    <string name="display_details_item_title_font_scale">फ़ॉन्ट स्केल</string>
+    <string name="display_details_item_title_physical_size">भौतिक आकार</string>
+    <string name="display_details_item_title_refresh_rate">रिफ्रेश दर</string>
+    <string name="display_details_item_title_brightness_level">चमक स्तर</string>
+    <string name="display_details_item_title_brightness_mode">चमक मोड</string>
+    <string name="display_details_item_title_hdr">एचडीआर</string>
+    <string name="display_details_item_title_hdr_capabilities">एचडीआर क्षमताएं</string>
+    <string name="display_details_item_title_screen_timeout">स्क्रीन काल समापन</string>
+    <string name="display_details_item_title_orientation">ओरिएंटेशन</string>
+
+    <string name="battery_health_item_title_good">अच्छी</string>
+    <string name="battery_health_item_title_unknown">अज्ञात</string>
+    <string name="battery_health_item_title_overheat">ज़रूरत से ज़्यादा गरम</string>
+    <string name="battery_health_item_title_dead">मृत</string>
+    <string name="battery_health_item_title_unspecified_failure">अनिर्दिष्ट विफलता</string>
+    <string name="battery_health_item_title_over_voltage">वोल्टेज से अधिक</string>
+
+    <string name="battery_status_item_title_charging">चार्ज हो रही है</string>
+    <string name="battery_status_item_title_discharging">डिस्चार्ज हो रही है</string>
+    <string name="battery_status_item_title_not_charging">"चार्ज नहीं हो रही है "</string>
+    <string name="battery_status_item_title_full_charged">पूरी तरह चार्ज है</string>
+    <string name="battery_status_item_title_unknown">अज्ञात</string>
+
+    <string name="battery_power_source_item_title_ac">एसी</string>
+    <string name="battery_power_source_item_title_wireless">वायरलेस</string>
+    <string name="battery_power_source_item_title_usb">यूएसबी</string>
+    <string name="battery_power_source_item_title_dock">डॉक</string>
+    <string name="battery_power_source_item_title_battery">बैटरी</string>
+
+    <string name="pixels_default_title">पिक्सल्स</string>
+
+    <string name="brightness_mode_item_title_automatic">ऑटोमैटिक</string>
+    <string name="brightness_mode_item_title_manual">मैनुअल</string>
+    <string name="brightness_mode_item_title_unknown">अज्ञात</string>
+
+    <string name="hdr_item_title_supported">समर्थित</string>
+    <string name="hdr_item_title_not_supported">समर्थित नहीं</string>
+
+    <string name="hdr_capabilities_item_title_max_luminance">अधिकतम चमक</string>
+    <string name="hdr_capabilities_item_title_max_average_luminance">अधिकतम औसत चमक</string>
+    <string name="hdr_capabilities_item_title_min_luminance">न्यूनतम चमक</string>
+
+    <string name="orientation_item_title_portrait">पोर्ट्रेट</string>
+    <string name="orientation_item_title_landscape">लैंडस्केप</string>
+    <string name="orientation_item_title_undefined">अपरिभाषित</string>
+    <string name="orientation_item_title_unknown">अज्ञात</string>
+
+    <string name="inches_default_title">इंच</string>
+
+    <string name="app_details_item_title_app_name">नाम</string>
+    <string name="app_details_item_title_package_name">पैकेज का नाम</string>
+    <string name="app_details_item_title_version">संस्करण</string>
+    <string name="app_details_item_title_minimum_sdk">न्यूनतम SDK</string>
+    <string name="app_details_item_title_target_sdk">लक्ष्य SDK</string>
+    <string name="app_details_item_title_install_date">स्थापना तिथि</string>
+    <string name="app_details_item_title_last_update">आखिरी अपडेट</string>
+
+    <string name="app_default_title">ऐप</string>
+    <string name="app_details_app_bar_title">ऐप विवरण</string>
+
+    <string name="app_component_item_title_permissions">अनुमतियाँ</string>
+    <string name="app_component_item_title_providers">प्रदाता</string>
+    <string name="app_component_item_title_receivers">रिसीवर</string>
+    <string name="app_component_item_title_services">सेवाएँ</string>
+
+    <string name="usage_permission_screen_title">यूसेज एक्सेस अनुमति की आवश्यकता है</string>
+    <string name="usage_permission_screen_description">आपके स्क्रीन उपयोग के आँकड़े दिखाने के लिए, हमें आपके उपयोग डेटा तक पहुँच की आवश्यकता है। नीचे दिए गए बटन पर टैप करें, डिवाइस इन्फो और अनुमति दें</string>
+    <string name="usage_permission_screen_privacy_info">हम आपके उपयोग संबंधी डेटा को कहीं भी संग्रहीत या साझा नहीं करते हैं</string>
+    <string name="usage_permission_screen_button_title">सेटिंग्स में अनुमति दें</string>
+
+    <string name="settings_item_theme">थीम</string>
+    <string name="settings_item_language">भाषा</string>
+    <string name="settings_item_licenses">लाइसेंस</string>
+    <string name="settings_item_privacy_policy">गोपनीयता नीति</string>
+    <string name="settings_item_app_version">एंड्रॉयड के लिए डिवाइस इन्फो</string>
+
+    <string name="settings_theme_item_dark">अँधेरा</string>
+    <string name="settings_theme_item_light">रोशनी</string>
+    <string name="settings_theme_item_system">सिस्टम</string>
+    <string name="settings_theme_dialog_title">थीम चुनें</string>
+    <string name="settings_theme_dialog_save">सहेजें</string>
+    <string name="settings_theme_dialog_cancel">रद्द करें</string>
+
+    <string name="core_text">कोर</string>
+    <string name="display_text">डिस्प्ले</string>
+    <string name="dashboard_item_title_cpu_frequency">सीपीयू आवृत्ति</string>
+    <string name="dashboard_item_ram_total">कुल: %1$sMB</string>
+    <string name="dashboard_item_ram_used">उपयोग: %1$sMB</string>
+    <string name="dashboard_item_ram_free">मुक्त: %1$sMB</string>
+    <string name="dashboard_item_storage_title">आंतरिक स्टोरेज</string>
+    <string name="dashboard_item_storage_subtitle">मुक्त: %1$s GB, कुल: %2$s GB</string>
+    <string name="dashboard_item_battery_subtitle">वोल्टेज: %1$s, तापमान: %2$s</string>
+    <string name="dashboard_item_apps_title">कुल ऐप्स</string>
+    <string name="dashboard_item_sensors_title">सेंसर</string>
+    <string name="home_storage_item_ram_title">रेम</string>
+    <string name="home_storage_item_ram_subtitle">%2$s जीबी में से %1$s जीबी उपयोग किया गया</string>
+    <string name="home_storage_item_system_title">सिस्टम भंडारण</string>
+    <string name="home_storage_item_system_subtitle">%2$s जीबी में से %1$s जीबी उपयोग किया गया</string>
+    <string name="home_storage_item_internal_title">आंतरिक भंडारण</string>
+    <string name="home_storage_item_internal_subtitle">%2$s जीबी में से %1$s जीबी उपयोग किया गया</string>
+    <string name="native_ad_attribute_label">विज्ञापन</string>
+    <string name="home_tabs_item_title_sensors">सेंसर</string>
+
+    <string name="content_description_go_back">वापस जाएं</string>
+
+    <string name="sensors_screen_error">सेंसर लोड नहीं किए जा सके।</string>
+    <string name="sensors_screen_empty">इस डिवाइस पर कोई सेंसर नहीं मिला।</string>
+    <string name="sensors_screen_count">%d सेंसर मिले</string>
+
+    <string name="sensor_details_app_bar_title">सेंसर विवरण</string>
+    <string name="sensor_details_not_found">सेंसर नहीं मिला।</string>
+    <string name="sensor_details_item_type">प्रकार</string>
+    <string name="sensor_details_item_vendor">विक्रेता</string>
+    <string name="sensor_details_item_version">संस्करण</string>
+    <string name="sensor_details_item_power">पावर खपत</string>
+    <string name="sensor_details_value_power">%.2f mA</string>
+    <string name="sensor_details_item_max_range">अधिकतम सीमा</string>
+    <string name="sensor_details_item_resolution">रिज़ॉल्यूशन</string>
+    <string name="sensor_details_item_min_delay">न्यूनतम सैंपलिंग देरी</string>
+    <string name="sensor_details_item_max_delay">अधिकतम सैंपलिंग देरी</string>
+    <string name="sensor_details_item_reporting_mode">रिपोर्टिंग मोड</string>
+    <string name="sensor_details_item_wake_up">वेक-अप सेंसर</string>
+    <string name="sensor_details_item_dynamic">डायनामिक सेंसर</string>
+    <string name="sensor_details_item_id">सेंसर ID</string>
+    <string name="sensor_details_value_yes">हाँ</string>
+    <string name="sensor_details_value_no">नहीं</string>
+
+    <string name="language_screen_app_bar_title">भाषा</string>
+    <string name="language_option_system_default">सिस्टम डिफ़ॉल्ट</string>
+    <string name="language_option_english">अंग्रेज़ी (English)</string>
+    <string name="language_option_hindi">हिन्दी (Hindi)</string>
+    <string name="language_requires_android_13">यहाँ भाषा चुनने के लिए एंड्रॉयड 13 या उससे उच्च संस्करण आवश्यक है। इस डिवाइस पर, इसके बजाय सिस्टम भाषा सेटिंग्स खोलने के लिए नीचे दिए गए विकल्प पर टैप करें।</string>
+
+    <string name="memory_user_apps">ऐप्स</string>
+    <string name="memory_user_apps_and_data">ऐप्स और डेटा</string>
+    <string name="memory_user_cache">कैश</string>
+    <string name="memory_user_system_and_reserved">सिस्टम और आरक्षित</string>
+    <string name="memory_user_free">फ़्री</string>
+    <string name="memory_user_used_space">उपयोग किया गया स्थान</string>
+    <string name="memory_user_external_storage">एसडी कार्ड (SD Card)</string>
+</resources>

@@ -1,0 +1,92 @@
+[versions]
+agp = "9.4.1"
+kotlin = "2.4.10"
+coreKtx = "1.19.0"
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+lifecycleRuntimeKtx = "2.11.0"
+composeLifecycleViewModel = "2.11.0"
+activityCompose = "1.13.0"
+androidxActivity = "1.13.0"
+composeBom = "2026.08.00"
+composeNavigation = "2.10.0"
+coilCompose = "2.7.0"
+googleMobileAds = "25.4.0"
+runtimeLivedata = "1.12.0"
+farimarwatNativeAd = "1.4"
+googleGmsGoogleServices = "4.5.0"
+firebaseAuth = "23.2.1"
+systemUiController = "0.36.0"
+material3-adaptive = "1.3.0"
+adaptiveNavigationSuite = "1.4.0"
+uiGraphicsPath = "1.1.0"
+materialExtendedIcons = "1.7.8"
+oss-licenses = "0.10.6"
+gms-oss-licenses = "17.5.1"
+jetpack-glance = "1.2.0"
+workRuntime = "2.11.2"
+accompanistPager = "0.36.0"
+kyant-backdrop = "2.0.1"
+kyantShapes = "1.2.1"
+foundation = "1.12.0"
+foundationLayout = "1.12.0"
+uiGraphics = "1.12.0"
+uiUnit = "1.12.0"
+hdCharts = "2.4.0"
+
+[libraries]
+dautovicharis-charts = { group = "io.github.dautovicharis", name = "charts", version.ref = "hdCharts" }
+kyant-backdrop = { group = "io.github.kyant0", name = "backdrop", version.ref = "kyant-backdrop" }
+kyant-shapes = { group = "io.github.kyant0", name = "shapes", version.ref = "kyantShapes" }
+gms-oss-licenses = { group = "com.google.android.gms", name = "play-services-oss-licenses", version.ref = "gms-oss-licenses" }
+systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "systemUiController" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
+google-mobile-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "googleMobileAds" }
+farimarwat-admob-native-compose = { group = "io.github.farimarwat", name = "admobnative-compose", version.ref = "farimarwatNativeAd" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilCompose" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "composeNavigation"}
+androidx-lifecycle-viewodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "composeLifecycleViewModel" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "androidxActivity" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui-graphics-path = { group = "androidx.graphics", name = "graphics-path", version.ref = "uiGraphicsPath"}
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuth" }
+material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "materialExtendedIcons" }
+androidx-compose-material3-adaptive-navigation = { group = "androidx.compose.material3.adaptive", name = "adaptive-navigation", version.ref = "material3-adaptive" }
+androidx-compose-material3-adaptive-navigation-suite = { group = "androidx.compose.material3", name = "material3-adaptive-navigation-suite", version.ref = "adaptiveNavigationSuite" }
+
+# Jetpack Glance Dependencies
+jetpack-glance-appwidget = { group = "androidx.glance", name = "glance-appwidget", version.ref = "jetpack-glance" }
+jetpack-glance-material3 = { group = "androidx.glance", name = "glance-material3", version.ref = "jetpack-glance" }
+
+# Work Manager
+androidx-work-runtime = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntime" }
+
+#Pager
+accompanist-pager-indicators = { group = "com.google.accompanist", name = "accompanist-pager-indicators", version.ref = "accompanistPager"  }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundation" }
+androidx-compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout", version.ref = "foundationLayout" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics", version.ref = "uiGraphics" }
+androidx-compose-ui-unit = { group = "androidx.compose.ui", name = "ui-unit", version.ref = "uiUnit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+#kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }

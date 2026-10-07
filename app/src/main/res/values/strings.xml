@@ -1,0 +1,261 @@
+<resources>
+    <string name="android_system_title">Android</string>
+
+    <string name="app_name">Device Info</string>
+    <string name="app_version" translatable="false">1.0.0</string>
+
+    <string name="empty_text" translatable="false"></string>
+
+    <string name="google_ads_app_id" translatable="false">ca-app-pub-9955934406523772~4058307033</string>
+    <string name="google_native_ad_id" translatable="false">ca-app-pub-9955934406523772/2973908777</string>
+    <string name="analyze_target_api_flag" translatable="false">targetApi</string>
+    <string name="analyze_minimum_api_flag" translatable="false">minimumApi</string>
+    <string name="analyze_installer_flag" translatable="false">installer</string>
+    <string name="analyze_signature_flag" translatable="false">signature</string>
+    <string name="home_device_details_flag" translatable="false">device</string>
+    <string name="home_system_details_flag" translatable="false">system</string>
+    <string name="home_processor_details_flag" translatable="false">processor</string>
+    <string name="home_battery_details_flag" translatable="false">battery</string>
+    <string name="home_display_details_flag" translatable="false">display</string>
+    <string name="home_camera_details_flag" translatable="false">camera</string>
+
+    <string name="nav_item_app_bar_title_home">Device Info</string>
+    <string name="nav_item_app_bar_title_analyze">Analyzer</string>
+    <string name="nav_item_app_bar_title_wellbeing">Wellbeing</string>
+    <string name="nav_item_app_bar_title_settings">Settings</string>
+
+    <string name="nav_item_title_home">Home</string>
+    <string name="nav_item_title_analyze">Analyze</string>
+    <string name="nav_item_title_wellbeing">Wellbeing</string>
+    <string name="nav_item_title_settings">Settings</string>
+
+    <string name="main_app_bar_menu_item_title_about">About</string>
+
+    <string name="home_tabs_item_title_dashboard">Dashboard</string>
+    <string name="home_tabs_item_title_apps">Apps</string>
+    <string name="home_tabs_item_title_storage">Storage</string>
+    <string name="home_tabs_item_title_device">Device</string>
+    <string name="home_tabs_item_title_system">System</string>
+    <string name="home_tabs_item_title_processor">Processor</string>
+    <string name="home_tabs_item_title_battery">Battery</string>
+    <string name="home_tabs_item_title_display">Display</string>
+    <string name="home_tabs_item_title_camera">Camera</string>
+
+    <string name="home_tab_apps_chips_item_title_all">All</string>
+    <string name="home_tab_apps_chips_item_title_user">User</string>
+    <string name="home_tab_apps_chips_item_title_system">System</string>
+
+    <string name="analyze_tabs_item_title_target">Target</string>
+    <string name="analyze_tabs_item_title_minimum">Minimum</string>
+    <string name="analyze_tabs_item_title_installer">Installer</string>
+    <string name="analyze_tabs_item_title_signature">Signature</string>
+
+    <string name="analyze_apps_sheet_loading">Loading apps…</string>
+    <string name="analyze_apps_sheet_error">Couldn\'t load apps for this item.</string>
+    <string name="analyze_apps_sheet_empty">No apps found.</string>
+    <string name="analyze_tab_load_error_title">Couldn\'t load this tab</string>
+    <string name="analyze_tab_load_error_subtitle">Something went wrong while scanning installed apps.</string>
+    <string name="analyze_tab_load_error_retry">Retry</string>
+    <string name="analyze_apps_sheet_close">Close</string>
+
+    <string name="installer_pre_installed">Pre-installed</string>
+    <string name="installer_debug">Debug (ADB)</string>
+    <string name="installer_direct_install">Direct Install</string>
+
+    <plurals name="analyze_apps_sheet_count">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d apps</item>
+    </plurals>
+
+    <string name="device_details_item_title_device_name">Device Name</string>
+    <string name="device_details_item_title_device_code">Device Code</string>
+    <string name="device_details_item_title_device_model">Model</string>
+    <string name="device_details_item_title_device_manufacturer">Manufacturer</string>
+    <string name="device_details_item_title_device_board">Board</string>
+    <string name="device_details_item_title_device_hardware">Hardware</string>
+    <string name="device_details_item_title_device_brand">Brand</string>
+    <string name="device_details_item_title_device_id">Android Device ID</string>
+    <string name="device_details_item_title_device_fingerprint">Fingerprint</string>
+
+    <string name="system_details_item_title_android_version">Android Version</string>
+    <string name="system_details_item_title_code_name">Code Name</string>
+    <string name="system_details_item_title_api_level">API Level</string>
+    <string name="system_details_item_title_security_patch">Security Patch</string>
+    <string name="system_details_item_title_bootloader">Bootloader</string>
+    <string name="system_details_item_title_build_number">Build Number</string>
+    <string name="system_details_item_title_baseband">Baseband</string>
+    <string name="system_details_item_title_java_vm">Java VM</string>
+    <string name="system_details_item_title_kernel">Kernel</string>
+    <string name="system_details_item_title_language">Language</string>
+    <string name="system_details_item_title_timezone">Timezone</string>
+    <string name="system_details_item_title_google_play_services">Google Play Services</string>
+
+    <string name="processor_details_item_title_processor">Processor</string>
+    <string name="processor_details_item_title_cpu_architecture">CPU Architecture</string>
+    <string name="processor_details_item_title_supported_abis">Supported ABIs</string>
+    <string name="processor_details_item_title_cpu_type">CPU Type</string>
+    <string name="processor_details_item_title_cpu_governor">CPU Governor</string>
+    <string name="processor_details_item_title_total_cores">Total Cores</string>
+    <string name="processor_details_item_title_cpu_frequency">CPU Frequency</string>
+    <string name="processor_details_item_title_gpu_renderer">GPU Renderer</string>
+    <string name="processor_details_item_title_gpu_vendor">GPU Vendor</string>
+    <string name="processor_details_item_title_gpu_version">GPU Version</string>
+
+    <string name="battery_details_item_title_health">Health</string>
+    <string name="battery_details_item_title_level">Level</string>
+    <string name="battery_details_item_title_status">Status</string>
+    <string name="battery_details_item_title_power_source">Power Source</string>
+    <string name="battery_details_item_title_technology">Technology</string>
+    <string name="battery_details_item_title_temperature">Temperature</string>
+    <string name="battery_details_item_title_current">Current</string>
+    <string name="battery_details_item_title_voltage">Voltage</string>
+    <string name="battery_details_item_title_capacity">Capacity</string>
+
+    <string name="battery_health_item_title_good">Good</string>
+    <string name="battery_health_item_title_unknown">Unknown</string>
+    <string name="battery_health_item_title_overheat">Overheat</string>
+    <string name="battery_health_item_title_dead">Dead</string>
+    <string name="battery_health_item_title_over_voltage">Over Voltage</string>
+    <string name="battery_health_item_title_unspecified_failure">Unspecified Failure</string>
+
+    <string name="battery_status_item_title_charging">Charging</string>
+    <string name="battery_status_item_title_discharging">Discharging</string>
+    <string name="battery_status_item_title_not_charging">Not Charging</string>
+    <string name="battery_status_item_title_full_charged">Full Charged</string>
+    <string name="battery_status_item_title_unknown">Unknown</string>
+
+    <string name="battery_power_source_item_title_ac">AC</string>
+    <string name="battery_power_source_item_title_wireless">Wireless</string>
+    <string name="battery_power_source_item_title_usb">USB</string>
+    <string name="battery_power_source_item_title_dock">Dock</string>
+    <string name="battery_power_source_item_title_battery">Battery</string>
+
+    <string name="display_details_item_title_resolution">Resolution</string>
+    <string name="display_details_item_title_density">Density</string>
+    <string name="display_details_item_title_font_scale">Font Scale</string>
+    <string name="display_details_item_title_physical_size">Physical Size</string>
+    <string name="display_details_item_title_refresh_rate">Refresh Rate</string>
+    <string name="display_details_item_title_brightness_level">Brightness Level</string>
+    <string name="display_details_item_title_brightness_mode">Brightness Mode</string>
+    <string name="display_details_item_title_hdr">HDR</string>
+    <string name="display_details_item_title_hdr_capabilities">HDR Capabilities</string>
+    <string name="display_details_item_title_screen_timeout">Screen Timeout</string>
+    <string name="display_details_item_title_orientation">Orientation</string>
+
+    <string name="pixels_default_title">Pixels</string>
+
+    <string name="brightness_mode_item_title_automatic">Automatic</string>
+    <string name="brightness_mode_item_title_manual">Manual</string>
+    <string name="brightness_mode_item_title_unknown">Unknown</string>
+
+    <string name="hdr_item_title_supported">Supported</string>
+    <string name="hdr_item_title_not_supported">Not Supported</string>
+
+    <string name="hdr_capabilities_item_title_max_luminance">Maximum Luminance</string>
+    <string name="hdr_capabilities_item_title_max_average_luminance">Maximum Average Luminance</string>
+    <string name="hdr_capabilities_item_title_min_luminance">Minimum Luminance</string>
+
+    <string name="orientation_item_title_portrait">Portrait</string>
+    <string name="orientation_item_title_landscape">Landscape</string>
+    <string name="orientation_item_title_undefined">Undefined</string>
+    <string name="orientation_item_title_unknown">Unknown</string>
+
+    <string name="inches_default_title">Inches</string>
+
+    <string name="app_details_item_title_app_name">Name</string>
+    <string name="app_details_item_title_package_name">Package Name</string>
+    <string name="app_details_item_title_version">Version</string>
+    <string name="app_details_item_title_minimum_sdk">Minimum SDK</string>
+    <string name="app_details_item_title_target_sdk">Target SDK</string>
+    <string name="app_details_item_title_install_date">Install Date</string>
+    <string name="app_details_item_title_last_update">Last Update</string>
+
+    <string name="app_default_title">App</string>
+    <string name="app_details_app_bar_title">App Details</string>
+
+    <string name="app_component_item_title_permissions">Permissions</string>
+    <string name="app_component_item_title_providers">Providers</string>
+    <string name="app_component_item_title_receivers">Receivers</string>
+    <string name="app_component_item_title_services">Services</string>
+
+    <string name="usage_permission_screen_title">Usage Access Permission Needed</string>
+    <string name="usage_permission_screen_description">To show your screen usage stats, we need access to your usage data. Tap the button below, select Device Info and allow permission</string>
+    <string name="usage_permission_screen_privacy_info">We don\'t store or share your usage data anywhere</string>
+    <string name="usage_permission_screen_button_title">Allow in Settings</string>
+
+    <string name="settings_item_theme">Theme</string>
+    <string name="settings_item_language">Language</string>
+    <string name="settings_item_licenses">Licenses</string>
+    <string name="settings_item_privacy_policy">Privacy Policy</string>
+    <string name="settings_item_app_version">Device Info for Android</string>
+
+    <string name="settings_item_flag_theme" translatable="false">theme</string>
+    <string name="settings_item_flag_language" translatable="false">language</string>
+    <string name="settings_item_flag_privacy" translatable="false">privacy</string>
+    <string name="settings_item_flag_licenses" translatable="false">licenses</string>
+    <string name="settings_item_flag_version" translatable="false">version</string>
+
+    <string name="settings_theme_item_dark">Dark</string>
+    <string name="settings_theme_item_light">Light</string>
+    <string name="settings_theme_item_system">System</string>
+    <string name="settings_theme_dialog_title">Choose theme</string>
+    <string name="settings_theme_dialog_save">Save</string>
+    <string name="settings_theme_dialog_cancel">Cancel</string>
+    <string name="core_text">Core</string>
+    <string name="display_text">Display</string>
+    <string name="dashboard_item_title_cpu_frequency">CPU Frequency</string>
+    <string name="dashboard_item_ram_total">Total: %1$sMB</string>
+    <string name="dashboard_item_ram_used">Used: %1$sMB</string>
+    <string name="dashboard_item_ram_free">Free: %1$sMB</string>
+    <string name="dashboard_item_storage_title">Internal Storage</string>
+    <string name="dashboard_item_storage_subtitle">Free: %1$s GB, Total: %2$s GB</string>
+    <string name="dashboard_item_battery_subtitle">Voltage: %1$s, Temp: %2$s</string>
+    <string name="dashboard_item_apps_title">Total Apps</string>
+    <string name="dashboard_item_sensors_title">Sensors</string>
+    <string name="home_storage_item_ram_title">RAM</string>
+    <string name="home_storage_item_ram_subtitle">%1$sGB used of %2$sGB</string>
+    <string name="home_storage_item_system_title">System Storage</string>
+    <string name="home_storage_item_system_subtitle">%1$sGB used of %2$sGB</string>
+    <string name="home_storage_item_internal_title">Internal Storage</string>
+    <string name="home_storage_item_internal_subtitle">%1$sGB used of %2$sGB</string>
+    <string name="native_ad_attribute_label">AD</string>
+    <string name="home_tabs_item_title_sensors">Sensors</string>
+
+    <string name="content_description_go_back">Go back</string>
+
+    <string name="sensors_screen_error">Couldn\'t load sensors.</string>
+    <string name="sensors_screen_empty">No sensors found on this device.</string>
+    <string name="sensors_screen_count">%d sensors detected</string>
+
+    <string name="sensor_details_app_bar_title">Sensor details</string>
+    <string name="sensor_details_not_found">Sensor not found.</string>
+    <string name="sensor_details_item_type">Type</string>
+    <string name="sensor_details_item_vendor">Vendor</string>
+    <string name="sensor_details_item_version">Version</string>
+    <string name="sensor_details_item_power">Power usage</string>
+    <string name="sensor_details_value_power">%.2f mA</string>
+    <string name="sensor_details_item_max_range">Maximum range</string>
+    <string name="sensor_details_item_resolution">Resolution</string>
+    <string name="sensor_details_item_min_delay">Minimum sampling delay</string>
+    <string name="sensor_details_item_max_delay">Maximum sampling delay</string>
+    <string name="sensor_details_item_reporting_mode">Reporting mode</string>
+    <string name="sensor_details_item_wake_up">Wake-up sensor</string>
+    <string name="sensor_details_item_dynamic">Dynamic sensor</string>
+    <string name="sensor_details_item_id">Sensor ID</string>
+    <string name="sensor_details_value_yes">Yes</string>
+    <string name="sensor_details_value_no">No</string>
+
+    <string name="language_screen_app_bar_title">Language</string>
+    <string name="language_option_system_default">System default</string>
+    <string name="language_option_english">English</string>
+    <string name="language_option_hindi">हिन्दी (Hindi)</string>
+    <string name="language_requires_android_13">Choosing a language here requires Android 13 or higher. On this device, tap an option below to open system language settings instead.</string>
+
+    <string name="memory_user_apps">Apps</string>
+    <string name="memory_user_apps_and_data">Apps &amp; Data</string>
+    <string name="memory_user_cache">Cache</string>
+    <string name="memory_user_system_and_reserved">System &amp; Reserved</string>
+    <string name="memory_user_free">Free</string>
+    <string name="memory_user_used_space">Used Space</string>
+    <string name="memory_user_external_storage">SD Card</string>
+</resources>
