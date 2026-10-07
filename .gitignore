@@ -9,6 +9,7 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 app/google-services.json
+app/release/
 
 # Build files
 /build/
